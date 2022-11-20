@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>the vampire diaries api quotes</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/unicons.css">
+  <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/github-fork-ribbon-css/0.2.3/gh-fork-ribbon.min.css"
+    />
+</head>
+
+
+<body>
+  <a
+  class="github-fork-ribbon"
+  href="https://github.com/Denchik797/the-vampire-diaries-api-quotes.git"
+  data-ribbon="Fork me on GitHub"
+  title="Fork me on GitHub"
+  >Fork me on GitHub</a
+>
+  <main>
+    <img src="/images/banner.png" class="ban"/><br />
+    <div class="badges">
+
+      <a href="https://github.com/Denchik797/the-vampire-diaries-api-quotes/blob/main/LICENSE">
+        <img src="https://img.shields.io/github/license/shadowoff09/lucifer-quotes" alt="license"/>
+      </a>
+
+      <a href="https://github.com/Denchik797/the-vampire-diaries-api-quotes">
+        <img src="https://img.shields.io/github/deployments/shadowoff09/lucifer-quotes/lucifer-quotes" alt="deployments"/>
+      </a>
+
+      <a href="https://github.com/Denchik797/the-vampire-diaries-api-quotes/commits/main">
+        <img src="https://img.shields.io/github/last-commit/Denchik797/the-vampire-diaries-api-quotes" alt="last-commit"/>
+      </a>
+
+      <a href="https://github/last-commit/Denchik797/the-vampire-diaries-api-quotes">
+        <img src="https://img.shields.io/github/repo-size/Denchik797/the-vampire-diaries-api-quotes" alt="repo-size"/>
+      </a>
+
+      <a href="https://github.com/shadowoff09/lucifer-quotes/blob/main/src/quotes.js" alt="quotes">
+        <img src="https://img.shields.io/badge/quotes-12-blue"/>
+      </a>
+    </div>
+
+    <h2 id="api">Usage</h2>
+
+    <h3 id="get-v1quotes">
+      <code>GET /quotes</code>
+    </h3>
+
+    <p>We get all the quotes:</p>
+
+    <blockquote>
+      <p>
+        <a href="http://localhost:3000/quotes" target="_blank">http://localhost:3000/quotes</a>
+      </p>
+    </blockquote>
+    <pre>
+      <code>
+        {
+          "id" : "1",
+          "quote" : "Когда ты теряешь кого-то, это чувство всегда остаётся с тобой, постоянно напоминая тебе, как легко можно пораниться.",
+          "member" : "Елена Гилберт",
+          "info" : "1 сезон, 1 серия, Пилот "
+        },
+        {
+          "id" : "2",
+          "quote" : "Доверие порождает доверие. Доверься, чтобы тебе доверяли.",
+          "member" : "Елена Гилберт",
+          "info" : "1 сезон, 13 серия, Дети проклятых"
+        },
+        {
+          "id" : "3",
+          "quote" : "Кто бы что не говорил или не делал, нет ничего важнее семьи.",
+          "member" : "Елена Гилберт",
+          "info" : "3 сезон, 8 серия, Обычные люди"
+        },
+        {
+          "id" : "4",
+          "quote" : "Раньше я думала, что самое страшное, что может случиться в жизни — это потеря любимого человека. Но я ошибалась. Самое страшное — осознать, что потерял себя.",
+          "member" : "Елена Гилберт",
+          "info" : "4 сезон, 5 серия, Убийца"
+        },
+        {
+          "id" : "5",
+          "quote" : "Самое тяжелое – это забыть людей, которые принесли только боль и разочарования.",
+          "member" : "Дэймон Сальваторе",
+          "info" : "3 сезон, 16 серия, 1912 год"
+        },
+        {
+          "id" : "6",
+          "quote" : "Когда люди видят хорошее, они этого ожидают. А я не хочу соответствовать ни чьим ожиданиям.",
+          "member" : "Дэймон Сальваторе",
+          "info" : "3 сезон, 19 серия, Тьма на сердце"
+        }, 
+        {
+          "id" : "7",
+          "quote" : "Смерть – слишком мягкое наказание.",
+          "member" : "Дэймон Сальваторе",
+          "info" : "2 сезон, 7 серия, Маскарад"
+        },
+        {
+          "id" : "8",
+          "quote" : "Люди умеют прощать. И после прощения возможно искупление. Я это знаю.",
+          "member" : "Дэймон Сальваторе",
+          "info" : "8 сезон, 13 серия, Ложь сделает свое дело"
+        },
+        {
+          "id" : "9",
+          "quote" : "Но один человек продолжал говорить мне, что чувствовать — это нормально, причём неважно, как от этого больно. Говорил, что именно эмоции делают нас людьми. Как хорошие, так и плохие. И просила никогда не терять надежду.",
+          "member" : "Стефан Сальваторе",
+          "info" : "3 сезон, 20 серия, Обойдемся без нежностей"
+        },
+        {
+          "id" : "10",
+          "quote" : "Нет ничего плохого в свободе воли. Поверь мне. Мы не ценим её, пока не теряем.",
+          "member" : "Стефан Сальваторе",
+          "info" : "3 сезон, 22 серия, Покойники"
+        },
+        {
+          "id" : "11",
+          "quote" : "Я сделал выбор, о котором буду сожалеть всю свою жизнь. Но дай мне попытаться все исправить.",
+          "member" : "Стефан Сальваторе",
+          "info" : "4 сезон, 1 серия, Возрастающая боль"
+        },
+        {
+          "id" : "12",
+          "quote" : "Если я позволю себе быть неравнодушным, то все, что я почувствую — это боль.",
+          "member" : "Стефан Сальваторе",
+          "info" : "3 сезон, 14 серия, Опасные связи"
+        }
+      </code>
+    </pre>
+
+    <h3 id="get-v1quotesnumber">
+      <code>GET /quote/id/5</code>
+    </h3>
+
+    <p>Returns the ID specified for this route <code></code></p>
+
+    <blockquote>
+      <p>
+        <a href="http://localhost:3000/quote/id/5">http://localhost:3000/quote/id/5</a>
+      </p>
+    </blockquote>
+    <pre>
+      <code>
+        {
+          "id" : "5",
+          "quote" : "Самое тяжелое – это забыть людей, которые принесли только боль и разочарования.",
+          "member" : "Дэймон Сальваторе",
+          "info" : "3 сезон, 16 серия, 1912 год"
+        }
+      </code>   
+    </pre>
+    
+    <h3 id="get-v1quotesnumber">
+      <code>GET /quote/random</code>
+    </h3>
+
+    <p>return a random quote <code></code></p>
+
+    <blockquote>
+      <p>
+        <a href="http://localhost:3000/quote/random">http://localhost:3000/quote/random</a>
+      </p>
+    </blockquote>
+    <pre>
+      <code>
+        {
+          "quote": "Я сделал выбор, о котором буду сожалеть всю свою жизнь. Но дай мне попытаться все исправить.",
+          "member": "Стефан Сальваторе",
+          "info": "4 сезон, 1 серия, Возрастающая боль"
+        }
+      </code>   
+    </pre>
+    
+    <h3 id="get-v1quotesnumber">
+      <code>GET /quote/member/Дэймон Сальваторе</code>
+    </h3>
+
+    <p>We get an array of quotes for the selected hero<code></code></p>
+
+    <blockquote>
+      <p>
+        <a href="http://localhost:3000/quote/member/Дэймон Сальваторе">http://localhost:3000/quote/member/Дэймон Сальваторе</a>
+      </p>
+    </blockquote>
+    <pre>
+      <code>
+        [
+          "Самое тяжелое – это забыть людей, которые принесли только боль и разочарования.",
+          "Когда люди видят хорошее, они этого ожидают. А я не хочу соответствовать ни чьим ожиданиям.",
+          "Смерть – слишком мягкое наказание.",
+          "Люди умеют прощать. И после прощения возможно искупление. Я это знаю."
+        ]
+      </code>   
+    </pre>
+    <h3 id="get-v1quotesnumber">
+      <code>GET /quote/total</code>
+    </h3>
+
+    <p>Find out the number of quotes <code></code></p>
+
+    <blockquote>
+      <p>
+        <a href="http://localhost:3000/quote/total">http://localhost:3000/quote/total</a>
+      </p>
+    </blockquote>
+    <pre>
+      <code>
+        "Total number of quotes: 12"
+      </code>   
+    </pre>
+
+    <h2 id="contributing"> Routes</h2>
+
+    <table>
+      <tr>
+        <th>Endpoints</th>
+        <th>Description</th>
+        <th>Example</th>
+      </tr>
+      <tr>
+        <td>GET/quotes</td>
+        <td>return all quotes</td>
+        <td><a href="http://localhost:3000/quotes">http://localhost:3000/quotes</a></td>
+      </tr>
+      <tr>
+        <td>GET/quote/random</td>
+        <td>return a random quote</td>
+        <td><a href="http://localhost:3000/quote/random">http://localhost:3000/quote/random</a></td>
+      </tr>
+      <tr>
+        <td>GET/quote/id/:id</td>
+        <td>return quote by its ID</td>
+        <td><a href="http://localhost:3000/quote/id/5">http://localhost:3000/quote/id/5</a></td>
+      </tr>
+      <tr>
+        <td>GET/quote/member/:member</td>
+        <td>return an array of quotes by member</td>
+        <td><a href="http://localhost:3000/quote/member/Дэймон Сальваторе">http://localhost:3000/quote/member/Дэймон Сальваторе</a></td>
+      </tr>
+      <td>GET/quote/total</td>
+      <td>return total number of quotes</td>
+      <td><a href="http://localhost:3000/quote/total">http://localhost:3000/quote/total</a></td>
+    </tr>
+    </table>
+
+    <div class="about-text">
+      <h2>Live Demo</h2>
+
+      <p>"<a id="quote">Доверие порождает доверие. Доверься, чтобы тебе доверяли.</a>"</p>
+      <p><span id="author">Елена Гилберт</span></p>
+      <div class="custom-btn-group mt-4">
+          <input type="button" class="button4" onclick="getRandom()" value="New quote">
+      </div>
+  </div>
+
+    <h2 id="contributing">Contributing</h2>
+    <p>If you want to add some quotes, just add them in <a href="https://github.com/shadowoff09/lucifer-quotes/blob/main/src/quotes.js">quotes.js</a> file and do a pull request !</p>
+    <h2 id="authors">Authors</h2>
+    <ul>
+      <li><a href="https://github.com/Denchik797">Denchik797</a></li>
+    </ul>
+    <h2 id="Donations">Donations</h2>
+    <ul>
+      <li><a href="https://qiwi.com/n/DENCHIK797">QIWI Russia</a></li>
+    </ul>
+    <h2 id="license">License</h2>
+      <ul>
+        <li><a href="https://github.com/Denchik797/the-vampire-diaries-api-quotes/blob/main/LICENSE">MIT</a></li>
+      </ul>
+  </main>
+  <script>
+    /* fetch quotes */
+function getRandom() {
+    fetch("	http://localhost:3000/quote/random")
+        .then((response) => response.json())
+        .then((data) => {
+        document.getElementById("quote").innerHTML = data.quote;
+        document.getElementById("author").innerHTML = data.member;
+        console.log(data.quote + " - " + data.member); //for debugging
+        getInfo(data.quote);
+    })
+    .catch((err) => console.log(err));
+}
+  </script>
+</body>
+
+</html>
